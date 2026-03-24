@@ -299,6 +299,12 @@ body.dragging #canvas {
   font-weight: 700;
 }
 
+.kpi-detail {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+
 /* Dynamic Sizes - Used as fallback only */
 .card-lg { min-width: 20vw; min-height: 40vh; }
 .card-md { min-width: 16vw; min-height: 30vh; }
@@ -430,6 +436,11 @@ footer * { pointer-events: auto; }
   will-change: transform;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  pointer-events: none;
+}
+
+.canvas-layer > * {
+  pointer-events: auto;
 }
 
 .canvas-layer.smooth-zoom {

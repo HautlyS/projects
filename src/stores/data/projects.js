@@ -17,8 +17,8 @@ export const projectsData = [
     territory: 'Brasil',
     axis: ['Arte', 'Tecnologia'],
     kpiLabelKey: 'labels.estimatedImpact',
-    kpiValue: '28.000 PESSOAS',
-    kpiDetail: '1 Álbum / 10 Docs / 1 Festival',
+    kpiValue: null,
+    kpiDetail: 'labels.p1.kpiDetail',
     meta: [
       { labelKey: 'project.partners', value: 'SOS Águas da Prata, Mídia Ninja' },
       { labelKey: 'project.role', value: 'RCC Escrita técnica & Coordenação' }
@@ -36,8 +36,8 @@ export const projectsData = [
     territory: 'Brasil',
     axis: ['Arte', 'Água', 'Tecnologia'],
     kpiLabelKey: 'labels.formation',
-    kpiValue: 'COMUNIDADE',
-    kpiDetail: 'Base da Banda Impermanente',
+    kpiValue: null,
+    kpiDetail: 'labels.p2.kpiDetail',
     meta: [
       { labelKey: 'project.award', value: 'Prêmio 11 anos - Gov. SP' },
       { labelKey: 'project.origin', value: 'projects.p2.origin' }
@@ -49,19 +49,19 @@ export const projectsData = [
     type: 'active',
     size: 'card-md',
     year: 2025,
-    statusTagKey: 'status.egGrants',
+    statusTagKey: 'status.virada2026',
     titleKey: 'projects.p3.title',
     descriptionKey: 'projects.p3.description',
     territory: 'Brasil',
     axis: ['Água'],
-    kpiLabelKey: null,
-    kpiValue: 'BIODIVERSIDADE',
-    kpiDetail: 'Abelhas Nativas Sem Ferrão',
+    kpiLabelKey: 'labels.biodiversity',
+    kpiValue: null,
+    kpiDetail: 'labels.p3.kpiDetail',
     meta: [
       { labelKey: 'project.location', value: 'SOS - Horta Parque' },
       { labelKey: 'project.type', value: 'Educação Ambiental' }
     ],
-    parentId: 'p20',
+    parentId: 'p18',
     connectionTypeKey: 'connections.subProject',
     category: 'environmental'
   },
@@ -70,19 +70,19 @@ export const projectsData = [
     type: 'active',
     size: 'card-md',
     year: 2025,
-    statusTagKey: 'status.egGrants',
+    statusTagKey: 'status.virada2026',
     titleKey: 'projects.p4.title',
     descriptionKey: 'projects.p4.description',
     territory: 'Brasil',
     axis: ['Água'],
-    kpiLabelKey: null,
-    kpiValue: 'SAF VIVO',
+    kpiLabelKey: 'labels.saf',
+    kpiValue: null,
     kpiDetail: null,
     meta: [
       { labelKey: 'project.location', value: 'SOS - Horta Parque' },
-      { labelKey: 'project.connection', value: 'Meliponário' }
+      { labelKey: 'project.connection', value: 'labels.p4.connection' }
     ],
-    parentId: 'p20',
+    parentId: 'p18',
     connectionTypeKey: 'connections.subProject',
     category: 'environmental'
   },
@@ -97,8 +97,8 @@ export const projectsData = [
     territory: 'Brasil',
     axis: ['Arte', 'Direitos'],
     kpiLabelKey: 'labels.duration',
-    kpiValue: '12 DIAS',
-    kpiDetail: 'Janeiro-Fevereiro 2027',
+    kpiValue: null,
+    kpiDetail: 'labels.p4b.kpiDetail',
     meta: [
       { labelKey: 'project.edition', value: '4ª Edição' },
       { labelKey: 'project.type', value: 'Celebração & Rede' }
@@ -108,19 +108,19 @@ export const projectsData = [
   {
     id: 'p4c',
     type: 'active',
-    size: 'card-md',
+    size: 'card-lg',
     year: 2025,
-    statusTagKey: 'status.completed',
+    statusTagKey: 'status.active',
     titleKey: 'projects.p4c.title',
     descriptionKey: 'projects.p4c.description',
     territory: 'Brasil',
     axis: ['Arte', 'Direitos'],
-    kpiLabelKey: null,
-    kpiValue: 'COBERTURA CONCLUÍDA',
-    kpiDetail: 'Novembro 2025',
+    kpiLabelKey: 'labels.format',
+    kpiValue: null,
+    kpiDetail: 'labels.p4c.kpiDetail',
     meta: [
-      { labelKey: 'project.focus', value: 'Justiça Climática' },
-      { labelKey: 'project.network', value: 'Youth Climate Network' }
+      { labelKey: 'project.focus', value: 'labels.p4c.focus' },
+      { labelKey: 'project.format', value: 'labels.p4c.format' }
     ],
     category: 'climate'
   },
@@ -138,9 +138,9 @@ export const projectsData = [
     descriptionKey: 'projects.p5.description',
     territory: 'Brasil',
     axis: ['Água', 'Direitos'],
-    kpiLabelKey: null,
-    kpiValue: 'DEFESA TERRITORIAL',
-    kpiDetail: 'Áreas de Terras Raras',
+    kpiLabelKey: 'labels.territorialDefense',
+    kpiValue: null,
+    kpiDetail: 'labels.p5.kpiDetail',
     meta: [
       { labelKey: 'project.status', value: 'projects.p5.meta.status' },
       { labelKey: 'project.scope', value: 'projects.p5.meta.pillars' }
@@ -241,8 +241,8 @@ export const projectsData = [
     descriptionKey: 'projects.p10.description',
     territory: 'Brasil',
     axis: ['Água', 'Tecnologia'],
-    kpiLabelKey: null,
-    kpiValue: 'GRANT PHASE',
+    kpiLabelKey: 'labels.grantPhase',
+    kpiValue: null,
     kpiDetail: null,
     meta: [
       { labelKey: 'project.type', value: 'MapBiomas + Geohidrografia' },
@@ -251,89 +251,6 @@ export const projectsData = [
     parentId: 'p5',
     connectionTypeKey: 'connections.tracking',
     category: 'environmental'
-  },
-  {
-    id: 'p11',
-    type: 'pipeline',
-    size: 'card-lg',
-    year: 2027,
-    statusTagKey: 'status.largeScale',
-    titleKey: 'projects.p11.title',
-    descriptionKey: 'projects.p11.description',
-    territory: 'Brasil',
-    axis: ['Arte', 'Água'],
-    kpiLabelKey: null,
-    kpiValue: 'LARGE GLOBAL PROJECT',
-    kpiDetail: null,
-    meta: [
-      { labelKey: 'project.scope', value: 'Internacional' },
-      { labelKey: 'project.role', value: 'Suporte Estratégico' }
-    ],
-    category: 'culture'
-  },
-  {
-    id: 'p11b',
-    type: 'pipeline',
-    size: 'card-sm',
-    year: 2027,
-    statusTagKey: 'status.writing',
-    titleKey: 'projects.p11b.title',
-    descriptionKey: 'projects.p11b.description',
-    territory: 'Brasil',
-    axis: ['Tecnologia', 'Direitos'],
-    kpiLabelKey: null,
-    kpiValue: 'TERRAS RARAS',
-    kpiDetail: 'Área mais visada do Brasil',
-    meta: [
-      { labelKey: 'project.production', value: 'Estúdios SOS Águas da Prata' },
-      { labelKey: 'project.connection', value: 'Vulcan Observatory' }
-    ],
-    parentId: 'p5',
-    connectionTypeKey: 'connections.research',
-    category: 'climate'
-  },
-
-  // ═══════════════════════════════════════════════════════════════════
-  // CONCLUÍDOS - Completed Projects (2024-2025)
-  // ═══════════════════════════════════════════════════════════════════
-  {
-    id: 'p12',
-    type: 'done',
-    size: 'card-lg',
-    year: 2025,
-    statusTagKey: 'status.completed',
-    titleKey: 'projects.p12.title',
-    descriptionKey: 'projects.p12.description',
-    territory: 'Brasil',
-    axis: ['Arte', 'Direitos'],
-    kpiLabelKey: 'project.partners',
-    kpiValue: 'REDE GLOBAL',
-    kpiDetail: 'Alana Institute, Our Kids Climate, GREENPEACE, 350.org',
-    meta: [
-      { labelKey: 'project.edition', value: '1ª, 2ª e 3ª Edições' },
-      { labelKey: 'project.status', value: 'Concluídas com sucesso' },
-      { labelKey: 'project.facilitators', value: 'BhumisparshaSchool, Mídia Ninja' }
-    ],
-    category: 'climate'
-  },
-  {
-    id: 'p13',
-    type: 'done',
-    size: 'card-md',
-    year: 2024,
-    statusTagKey: 'status.completed',
-    titleKey: 'projects.p13.title',
-    descriptionKey: 'projects.p13.description',
-    territory: 'Brasil',
-    axis: ['Água'],
-    kpiLabelKey: 'labels.target',
-    kpiValue: '7.000 ÁRVORES',
-    kpiDetail: 'Concursos ambientais, audiovisuais e sociais',
-    meta: [
-      { labelKey: 'project.period', value: '2021-2024' },
-      { labelKey: 'project.result', value: 'Restauração Ecossistemas Locais' }
-    ],
-    category: 'restoration'
   },
   {
     id: 'p14',
@@ -345,11 +262,11 @@ export const projectsData = [
     descriptionKey: 'projects.p14.description',
     territory: 'Brasil',
     axis: ['Água', 'Direitos'],
-    kpiLabelKey: 'labels.award',
-    kpiValue: 'VITÓRIA COMUNITÁRIA',
+    kpiLabelKey: 'labels.communityVictory',
+    kpiValue: null,
     kpiDetail: 'Concurso Curta Prata 2016',
     meta: [
-      { labelKey: 'project.legacy', value: 'Videoclipe "A Mensagem da Onça"' },
+      { labelKey: 'project.legacy', value: 'labels.p14.legacy' },
       { labelKey: 'project.sponsorship', value: 'Banco do Brasil' }
     ],
     category: 'climate'
@@ -364,8 +281,8 @@ export const projectsData = [
     descriptionKey: 'projects.p14b.description',
     territory: 'Brasil',
     axis: ['Arte'],
-    kpiLabelKey: null,
-    kpiValue: 'PRÊMIO',
+    kpiLabelKey: 'labels.award',
+    kpiValue: null,
     kpiDetail: 'Concurso Curta Prata 2016',
     meta: [
       { labelKey: 'project.sponsorship', value: 'Banco do Brasil' },
@@ -406,8 +323,8 @@ export const projectsData = [
     descriptionKey: 'projects.p16.description',
     territory: 'Brasil',
     axis: ['Direitos', 'Água'],
-    kpiLabelKey: null,
-    kpiValue: 'EMPODERAMENTO',
+    kpiLabelKey: 'labels.empowerment',
+    kpiValue: null,
     kpiDetail: null,
     meta: [
       { labelKey: 'project.partners', value: 'Instituto Federal do Brasil' },
@@ -425,8 +342,8 @@ export const projectsData = [
     descriptionKey: 'projects.p16b.description',
     territory: 'Brasil',
     axis: ['Direitos'],
-    kpiLabelKey: null,
-    kpiValue: 'CONEXÃO COMUNITÁRIA',
+    kpiLabelKey: 'labels.communityConnection',
+    kpiValue: null,
     kpiDetail: null,
     meta: [
       { labelKey: 'project.role', value: 'Conselheira de Saberes' },
@@ -446,8 +363,8 @@ export const projectsData = [
     descriptionKey: 'projects.p17.description',
     territory: 'Brasil',
     axis: ['Arte', 'Direitos'],
-    kpiLabelKey: null,
-    kpiValue: 'CULTURA VIVA',
+    kpiLabelKey: 'labels.livingCulture',
+    kpiValue: null,
     kpiDetail: null,
     meta: [
       { labelKey: 'project.type', value: 'Somente mulheres' },
@@ -457,20 +374,20 @@ export const projectsData = [
   },
   {
     id: 'p18',
-    type: 'done',
+    type: 'active',
     size: 'card-lg',
     year: 2025,
-    statusTagKey: 'status.activeBase',
+    statusTagKey: 'status.virada2026',
     titleKey: 'projects.p18.title',
     descriptionKey: 'projects.p18.description',
     territory: 'Brasil',
     axis: ['Água'],
     kpiLabelKey: 'projects.p18.kpiLabel',
-    kpiValue: 'JARDIM + MELIPONÁRIO',
+    kpiValue: null,
     kpiDetail: null,
     meta: [
       { labelKey: 'project.type', value: 'SAF - Sistema Agroflorestal' },
-      { labelKey: 'project.status', value: 'Base para projetos em execução' }
+      { labelKey: 'project.status', value: 'labels.p18.status' }
     ],
     category: 'restoration'
   },
@@ -484,9 +401,9 @@ export const projectsData = [
     descriptionKey: 'projects.p19.description',
     territory: 'Brasil',
     axis: ['Arte'],
-    kpiLabelKey: null,
-    kpiValue: 'MODA SUSTENTÁVEL',
-    kpiDetail: 'Camisetas, canecas, reuso',
+    kpiLabelKey: 'labels.sustainableFashion',
+    kpiValue: null,
+    kpiDetail: 'labels.p19.kpiDetail',
     meta: [
       { labelKey: 'project.base', value: 'SOS Águas da Prata NGO' },
       { labelKey: 'project.focus', value: 'Redução impacto indústria fashion' }
@@ -524,12 +441,12 @@ export const projectsData = [
     descriptionKey: 'projects.p21.description',
     territory: 'Brasil',
     axis: ['Arte'],
-    kpiLabelKey: null,
-    kpiValue: 'PROJETO FUNDADOR',
-    kpiDetail: 'Base da Banda Impermanente',
+    kpiLabelKey: 'labels.founderProject',
+    kpiValue: null,
+    kpiDetail: 'labels.p21.kpiDetail',
     meta: [
       { labelKey: 'project.type', value: 'Projeto Formativo' },
-      { labelKey: 'project.legacy', value: 'Workshops semanais' }
+      { labelKey: 'project.legacy', value: 'labels.p21.legacy' }
     ],
     category: 'culture'
   },
@@ -543,9 +460,9 @@ export const projectsData = [
     descriptionKey: 'projects.p21b.description',
     territory: 'Brasil',
     axis: ['Arte'],
-    kpiLabelKey: null,
-    kpiValue: 'PROJETO PROFISSIONAL',
-    kpiDetail: 'Álbuns e Apresentações',
+    kpiLabelKey: 'labels.professionalProject',
+    kpiValue: null,
+    kpiDetail: 'labels.p21b.kpiDetail',
     meta: [
       { labelKey: 'project.origin', value: 'Oficina de Música e Meio Ambiente' },
       { labelKey: 'project.base', value: 'SOS Águas da Prata' }
@@ -564,9 +481,9 @@ export const projectsData = [
     descriptionKey: 'projects.p22.description',
     territory: 'Brasil',
     axis: ['Arte', 'Direitos'],
-    kpiLabelKey: null,
-    kpiValue: 'COBERTURA COMPLETA',
-    kpiDetail: 'COP30 + Todos os eventos',
+    kpiLabelKey: 'labels.fullCoverage',
+    kpiValue: null,
+    kpiDetail: 'labels.p22.kpiDetail',
     meta: [
       { labelKey: 'project.events', value: 'Virada Climática, COP30, Vulcan Festival' },
       { labelKey: 'project.format', value: 'Documentário, Fotos, Textos' }

@@ -43,8 +43,8 @@
   "status": {
     "pnab": "Em Execução / PNAB",
     "egGrants": "Em Execução / EG Grants",
-    "cultsp": "Em Execução / CultSP",
-    "virada2026": "Concluído / Virada 2024-2025",
+    "cultsp": "Em Execução / Oficinas Semanais",
+    "virada2026": "Em Execução / Virada 2026",
     "virada2027": "Em Execução / Virada 2027",
     "active": "Em Execução",
     "submission": "Submissão",
@@ -72,7 +72,7 @@
     "evolution": "Evolução",
     "facilitator": "Facilitadora",
     "educational": "Atividade Educacional",
-    "tracking": "Tracker's Connection"
+    "tracking": "Conexão Tracker's"
   },
   "footer": {
     "coords": "EG_SA // X: {x} // Y: {y}",
@@ -89,7 +89,7 @@
   },
   "project": {
     "partners": "Parceiros",
-    "role": "EG ROLE",
+    "role": "EG Função",
     "origin": "Origem",
     "location": "Local",
     "type": "Tipo",
@@ -117,12 +117,17 @@
   "labels": {
     "estimatedImpact": "Impacto Estimado",
     "formation": "Formação",
+    "biodiversity": "Biodiversidade",
+    "saf": "SAF Vivo",
     "duration": "Duração",
+    "format": "Formato",
     "territorialDefense": "Defesa Territorial",
     "rareEarth": "Terras Raras",
     "internationalCoverage": "Cobertura Internacional",
     "grantPhase": "Fase de Grant",
     "empowerment": "Empoderamento",
+    "communityConnection": "Conexão Comunitária",
+    "livingCulture": "Cultura Viva",
     "livingLab": "Laboratório Vivo",
     "sustainableFashion": "Moda Sustentável",
     "founderProject": "Projeto Fundador",
@@ -130,7 +135,23 @@
     "communityVictory": "Vitória Comunitária",
     "award": "Prêmio",
     "globalNetwork": "Rede Global",
-    "target": "Meta"
+    "target": "Meta",
+    "fullCoverage": "Cobertura Completa",
+    "p1.kpiDetail": "1 Álbum / 10 Docs / 1 Festival",
+    "p2.kpiDetail": "Base da Banda Impermanente",
+    "p3.kpiDetail": "Abelhas Nativas Sem Ferrão",
+    "p4.connection": "Meliponário",
+    "p4b.kpiDetail": "Janeiro-Fevereiro 2027",
+    "p4c.focus": "COP30 + Virada Climática + Vulcan Festival",
+    "p4c.format": "Documentário, Fotos, Textos",
+    "p5.kpiDetail": "Áreas de Terras Raras",
+    "p14.legacy": "Videoclipe \"A Mensagem da Onça\"",
+    "p18.status": "Base para projetos em execução",
+    "p19.kpiDetail": "Camisetas, canecas, reuso",
+    "p21.kpiDetail": "Base da Banda Impermanente",
+    "p21.legacy": "Workshops semanais",
+    "p21b.kpiDetail": "Álbuns e Apresentações",
+    "p22.kpiDetail": "COP30 + Todos os eventos"
   },
   "projects": {
     "p1": {
@@ -152,11 +173,11 @@
     },
     "p4b": {
       "title": "VIRADA CLIMÁTICA 2027",
-      "description": "4ª Edição - Celebração de 13 Anos de EG South America: 12 dias de atividades socioambientais. Em planejamento/submissão."
+      "description": "4ª Edição - Celebração de 13 Anos de EG South America: 12 dias de atividades socioambientais. Em Planejamento/Escrita."
     },
     "p4c": {
-      "title": "COBERTURA COP30",
-      "description": "Cobertura climática internacional concluída com sucesso em Belém do Pará. Ativação da rede de jovens."
+      "title": "EARTH DOC",
+      "description": "Cobertura completa documental de todo o trabalho EG South America. COP30, Virada Climática, Vulcan Festival e todos os eventos EG."
     },
     "p5": {
       "title": "VULCAN OBSERVATORY",
@@ -183,28 +204,12 @@
       "description": "Áreas estratégicas de foco do observatório - radiologia e segurança alimentar."
     },
     "p10": {
-      "title": "EARTHTRACK",
-      "description": "Conectado ao Vulcan Observatory - ferramentas geohidrográficas para catalogação comunitária de nascentes."
-    },
-    "p11": {
-      "title": "ARTICULAÇÃO UNICEF / FID",
-      "description": "Fomento cultural internacional e agroecologia em escala regional Sul-Americana. Large Global Project."
-    },
-    "p11b": {
-      "title": "DOCUMENTÁRIO PRATA ATIVA",
-      "description": "Base de recursos para estudo do Vulcan Observatory sobre status radiológico."
-    },
-    "p12": {
-      "title": "VIRADA CLIMÁTICA",
-      "description": "Evento inovador: shows, DJs, camping e ativismo socioambiental. 3 edições concluídas com sucesso. Patrocinadores: Alana Institute, Our Kids Climate, GREENPEACE, BhumisparshaSchool."
-    },
-    "p13": {
-      "title": "PROJETO 7K",
-      "description": "Reflorestamento: 7 mil árvores celebrando 7 anos de EG Brasil. Viveiro na SOS Águas da Prata."
+      "title": "ECOTRACK MAPBIOMAS",
+      "description": "Ferramentas geohidrográficas para catalogação comunitária de nascentes e monitoramento de bacias."
     },
     "p14": {
       "title": "XÔ MINERADORAS",
-      "description": "Movimento comunitário contra mineração de bauxita que ameaçava fontes de água."
+      "description": "Movimento comunitário contra mineração de bauxita que ameaçava fontes de água. Base para Vulcan Observatory."
     },
     "p14b": {
       "title": "A MENSAGEM DA ONÇA",
@@ -236,8 +241,9 @@
       "description": "Economia criativa: produtos impressos originais (camisetas, canecas) e reuso de materiais."
     },
     "p20": {
-      "title": "O DESPERTAR DAS MATAS",
-      "description": "Circo e teatro com temas socioambientais na escola pública EMEB Áurea Soares."
+      "title": "SOS - HORTA PARQUE (SAF)",
+      "description": "Sistema agroflorestal como laboratório vivo para projetos de restauração e educação ambiental.",
+      "kpiLabel": "Projetos Ativos"
     },
     "p21": {
       "title": "OFICINA DE MÚSICA",
@@ -248,8 +254,8 @@
       "description": "Projeto musical profissional nascido da Oficina de Música. Realiza apresentações e lançamentos."
     },
     "p22": {
-      "title": "EARTH DOC",
-      "description": "Documentário com materiais de cobertura da COP30 e todos os eventos: Virada Climática, Vulcan Festival, COBERTURAS e muito mais."
+      "title": "O DESPERTAR DAS MATAS",
+      "description": "Circo e teatro com temas socioambientais na escola pública EMEB Áurea Soares."
     }
   }
 }

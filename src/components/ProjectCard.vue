@@ -13,12 +13,12 @@
     <div class="status-tag" :class="'tag-' + project.type">{{ t(project.statusTagKey) }}</div>
     <h2 class="title">{{ t(project.titleKey) }}</h2>
     <p class="description">{{ t(project.descriptionKey) }}</p>
-    <div v-if="project.kpiValue" class="kpi-box">
-      <div v-if="project.kpiLabelKey" class="filter-label">{{ t(project.kpiLabelKey) }}</div>
-      <div class="kpi-value">{{ project.kpiValue }}</div>
-      <div v-if="project.kpiDetail" style="font-size: 0.7rem; opacity: 0.7;">{{ project.kpiDetail }}</div>
+    <div v-if="project.kpiLabelKey" class="kpi-box">
+      <div class="filter-label">{{ t(project.kpiLabelKey) }}</div>
+      <div v-if="project.kpiValue" class="kpi-value">{{ t(project.kpiValue) }}</div>
+      <div v-if="project.kpiDetail" class="kpi-detail">{{ t(project.kpiDetail) }}</div>
     </div>
-    <div v-if="project.meta.length" class="meta-grid">
+    <div v-if="project.meta && project.meta.length" class="meta-grid">
       <div v-for="item in project.meta" :key="item.labelKey" class="meta-item">
         <label>{{ t(item.labelKey) }}</label>
         {{ item.value }}

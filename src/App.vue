@@ -188,7 +188,14 @@ function getConnectionColor(projectType) {
 }
 
 function onMouseDown(e) {
-  // Use clientX/Y directly - no need for viewport rect calculation
+  const target = e.target
+  const isCardClick = target.closest('.project-card')
+  const isUIElement = target.closest('button') || target.closest('a') || target.closest('input')
+  
+  if (isCardClick || isUIElement) {
+    return
+  }
+  
   document.body.classList.add('dragging')
   store.updateMouse(e.clientX, e.clientY)
   store.setStart(e.clientX, e.clientY)

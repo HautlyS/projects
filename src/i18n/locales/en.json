@@ -36,7 +36,9 @@
   "status": {
     "pnab": "In Progress / PNAB",
     "egGrants": "In Progress / EG Grants",
+    "cultsp": "In Progress / Weekly Workshops",
     "virada2026": "In Progress / Virada 2026",
+    "virada2027": "In Progress / Virada 2027",
     "active": "In Progress",
     "submission": "Submission",
     "writing": "Technical Writing",
@@ -49,7 +51,8 @@
     "advisor": "Completed / Advisor",
     "activeBase": "Completed / Active Base",
     "creativeEconomy": "Completed / Creative Economy",
-    "professional": "Completed / Professional"
+    "professional": "Completed / Professional",
+    "founder": "Completed / Founder"
   },
   "connections": {
     "subProject": "Sub-project",
@@ -102,12 +105,17 @@
   "labels": {
     "estimatedImpact": "Estimated Impact",
     "formation": "Formation",
+    "biodiversity": "Biodiversity",
+    "saf": "SAF Active",
     "duration": "Duration",
+    "format": "Format",
     "territorialDefense": "Territorial Defense",
     "rareEarth": "Rare Earth",
     "internationalCoverage": "International Coverage",
     "grantPhase": "Grant Phase",
     "empowerment": "Empowerment",
+    "communityConnection": "Community Connection",
+    "livingCulture": "Living Culture",
     "livingLab": "Living Lab",
     "sustainableFashion": "Sustainable Fashion",
     "founderProject": "Founder Project",
@@ -115,7 +123,23 @@
     "communityVictory": "Community Victory",
     "award": "Award",
     "globalNetwork": "Global Network",
-    "target": "Target"
+    "target": "Target",
+    "fullCoverage": "Full Coverage",
+    "p1.kpiDetail": "1 Album / 10 Docs / 1 Festival",
+    "p2.kpiDetail": "Banda Impermanente Base",
+    "p3.kpiDetail": "Native Stingless Bees",
+    "p4.connection": "Meliponary",
+    "p4b.kpiDetail": "January-February 2027",
+    "p4c.focus": "COP30 + Virada Climática + Vulcan Festival",
+    "p4c.format": "Documentary, Photos, Texts",
+    "p5.kpiDetail": "Rare Earth Areas",
+    "p14.legacy": "Music Video \"A Mensagem da Onça\"",
+    "p18.status": "Base for Active Projects",
+    "p19.kpiDetail": "T-shirts, Mugs, Reuse",
+    "p21.kpiDetail": "Banda Impermanente Base",
+    "p21.legacy": "Weekly Workshops",
+    "p21b.kpiDetail": "Albums & Performances",
+    "p22.kpiDetail": "COP30 + All Events"
   },
   "projects": {
     "p1": {
@@ -136,12 +160,12 @@
       "description": "Community garden, school activities, native trees and fruit preservation."
     },
     "p4b": {
-      "title": "VIRADA CLIMÁTICA 2026",
-      "description": "12 Years of EG South America Celebration: 12 days of socio-environmental activities."
+      "title": "VIRADA CLIMÁTICA 2027",
+      "description": "4th Edition - 13 Years of EG South America Celebration: 12 days of socio-environmental activities. In Planning/Writing."
     },
     "p4c": {
-      "title": "COP 30 COVERAGE",
-      "description": "International climate coverage and youth advocacy network for COP30 in Belém."
+      "title": "EARTH DOC",
+      "description": "Full documentary coverage of EG South America work. COP30, Virada Climática, Vulcan Festival and all EG events."
     },
     "p5": {
       "title": "VULCAN OBSERVATORY",
@@ -171,45 +195,38 @@
       "title": "ECOTRACK MAPBIOMAS",
       "description": "Geohydrographic tools for community spring cataloging and watershed monitoring."
     },
-    "p11": {
-      "title": "UNICEF / FID ARTICULATION",
-      "description": "International cultural fostering and agroecology at South American regional scale."
-    },
-    "p11b": {
-      "title": "DOCUMENTARY PRATA ATIVA",
-      "description": "Resource base for Vulcan Observatory - radiological status of Brazil's most targeted Rare Earth area."
-    },
-    "p13": {
-      "title": "VIRADA CLIMÁTICA (3 EDIÇÕES)",
-      "description": "Innovative event: concerts, DJs, camping and socio-environmental activism. 3 successful editions."
-    },
     "p14": {
-      "title": "PROJETO 7K",
-      "description": "Reforestation: 7 thousand trees celebrating 7 years of EG Brazil. Nursery at SOS Águas da Prata."
-    },
-    "p15": {
       "title": "XÔ MINERADORAS",
       "description": "Community uprising against bauxite mining that threatened water sources. Base for Vulcan Observatory."
     },
-    "p15b": {
+    "p14b": {
       "title": "A MENSAGEM DA ONÇA",
       "description": "Music video exposing climate crises and rising youth voices. Winner of Concurso Curta Prata 2016."
     },
-    "p17": {
+    "p15": {
       "title": "VULCAN FESTIVAL",
       "description": "International visibility and advocacy network strengthening via Mídia Ninja."
     },
-    "p18": {
+    "p16": {
       "title": "TRILHANDO CAMINHOS",
       "description": "Rural administrative management, herbs and social rights for women at Cascata community."
     },
-    "p18b": {
+    "p16b": {
       "title": "NANCI FERREIRA",
       "description": "Elderly facilitator and community bridge. Wisdom Adviser for EG Cascata project."
     },
-    "p19": {
+    "p17": {
       "title": "BAQUE MULHER",
       "description": "Female-only empowerment movement through maracatu. Performances at cultural events."
+    },
+    "p18": {
+      "title": "SOS - HORTA PARQUE (SAF)",
+      "description": "Agroforestry System (SAF) as living lab for restoration and environmental education projects.",
+      "kpiLabel": "Active Projects"
+    },
+    "p19": {
+      "title": "PRATA PRINT / BHUMISPRINT",
+      "description": "Creative economy: original printed goods (t-shirts, mugs) and material reuse."
     },
     "p20": {
       "title": "SOS - HORTA PARQUE (SAF)",
@@ -217,20 +234,16 @@
       "kpiLabel": "Active Projects"
     },
     "p21": {
-      "title": "PRATA PRINT / BHUMISPRINT",
-      "description": "Creative economy: original printed goods (t-shirts, mugs) and material reuse."
+      "title": "OFICINA DE MÚSICA",
+      "description": "Collective's flagship project - free community workshops. Foundation for Banda Impermanente."
+    },
+    "p21b": {
+      "title": "BANDA IMPERMANENTE",
+      "description": "Professional music project born from Oficina de Música. Performs and releases professional work."
     },
     "p22": {
       "title": "O DESPERTAR DAS MATAS",
       "description": "Circus and theater with socio-environmental themes at EMEB Áurea Soares public school."
-    },
-    "p22b": {
-      "title": "OFICINA DE MÚSICA",
-      "description": "Collective's flagship project - free community workshops. Foundation for Banda Impermanente."
-    },
-    "p22c": {
-      "title": "BANDA IMPERMANENTE",
-      "description": "Professional music project born from Oficina de Música. Performs and releases professional work."
     }
   }
 }
